@@ -17,6 +17,7 @@
 		69AACC672770C1B6007FD39C /* Problem_329.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC662770C1B6007FD39C /* Problem_329.swift */; };
 		69AACC692770C5B6007FD39C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC682770C5B6007FD39C /* Queue.swift */; };
 		69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6A2770D9EE007FD39C /* Problem_543.swift */; };
+		69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6D2770EE0B007FD39C /* Problem_17.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		69AACC662770C1B6007FD39C /* Problem_329.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_329.swift; sourceTree = "<group>"; };
 		69AACC682770C5B6007FD39C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		69AACC6A2770D9EE007FD39C /* Problem_543.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_543.swift; sourceTree = "<group>"; };
+		69AACC6D2770EE0B007FD39C /* Problem_17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_17.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				69AACC5B277097F9007FD39C /* Data */,
+				69AACC6C2770EDEC007FD39C /* Backtrack */,
 				69AACC652770C19D007FD39C /* Matrix */,
 				69AACC602770983D007FD39C /* Tree */,
 				69AACC2B27709535007FD39C /* AppDelegate.swift */,
@@ -128,6 +131,14 @@
 				69AACC662770C1B6007FD39C /* Problem_329.swift */,
 			);
 			path = Matrix;
+			sourceTree = "<group>";
+		};
+		69AACC6C2770EDEC007FD39C /* Backtrack */ = {
+			isa = PBXGroup;
+			children = (
+				69AACC6D2770EE0B007FD39C /* Problem_17.swift */,
+			);
+			path = Backtrack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			files = (
 				69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */,
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
+				69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */,
 				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
 				69AACC5E27709822007FD39C /* Stack.swift in Sources */,
 				69AACC672770C1B6007FD39C /* Problem_329.swift in Sources */,
