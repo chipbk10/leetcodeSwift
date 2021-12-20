@@ -1,8 +1,8 @@
 # Leetcode in Swift
 
-# [Tree]()
+### [Tree]()
 
-# [Data Structure]()
+### [Data Structure]()
 - TreeNode
 - Stack
 - Queue
