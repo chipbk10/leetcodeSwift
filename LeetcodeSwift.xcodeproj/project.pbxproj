@@ -16,6 +16,7 @@
 		69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6327709B2F007FD39C /* ProblemProtocol.swift */; };
 		69AACC672770C1B6007FD39C /* Problem_329.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC662770C1B6007FD39C /* Problem_329.swift */; };
 		69AACC692770C5B6007FD39C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC682770C5B6007FD39C /* Queue.swift */; };
+		69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6A2770D9EE007FD39C /* Problem_543.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		69AACC6327709B2F007FD39C /* ProblemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemProtocol.swift; sourceTree = "<group>"; };
 		69AACC662770C1B6007FD39C /* Problem_329.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_329.swift; sourceTree = "<group>"; };
 		69AACC682770C5B6007FD39C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		69AACC6A2770D9EE007FD39C /* Problem_543.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_543.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				69AACC612770983D007FD39C /* Problem_236.swift */,
+				69AACC6A2770D9EE007FD39C /* Problem_543.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */,
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
 				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
 				69AACC5E27709822007FD39C /* Stack.swift in Sources */,
