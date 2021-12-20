@@ -10,7 +10,7 @@ class Problem_236: ProblemProtocol {
     static func run() {
         
         let root = TreeNode<Int>(1)
-        root.right = TreeNode<Int>(2)
+        root.right = TreeNode<Int>(2)                
         
         let p = root
         let q = root.right

@@ -14,6 +14,8 @@
 		69AACC5F27709822007FD39C /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC5D27709822007FD39C /* TreeNode.swift */; };
 		69AACC622770983D007FD39C /* Problem_236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC612770983D007FD39C /* Problem_236.swift */; };
 		69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6327709B2F007FD39C /* ProblemProtocol.swift */; };
+		69AACC672770C1B6007FD39C /* Problem_329.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC662770C1B6007FD39C /* Problem_329.swift */; };
+		69AACC692770C5B6007FD39C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC682770C5B6007FD39C /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		69AACC5D27709822007FD39C /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		69AACC612770983D007FD39C /* Problem_236.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_236.swift; sourceTree = "<group>"; };
 		69AACC6327709B2F007FD39C /* ProblemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemProtocol.swift; sourceTree = "<group>"; };
+		69AACC662770C1B6007FD39C /* Problem_329.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_329.swift; sourceTree = "<group>"; };
+		69AACC682770C5B6007FD39C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				69AACC5B277097F9007FD39C /* Data */,
+				69AACC652770C19D007FD39C /* Matrix */,
 				69AACC602770983D007FD39C /* Tree */,
 				69AACC2B27709535007FD39C /* AppDelegate.swift */,
 				69AACC3427709537007FD39C /* Assets.xcassets */,
@@ -101,6 +106,7 @@
 				69AACC5C27709822007FD39C /* Stack.swift */,
 				69AACC5D27709822007FD39C /* TreeNode.swift */,
 				69AACC6327709B2F007FD39C /* ProblemProtocol.swift */,
+				69AACC682770C5B6007FD39C /* Queue.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -111,6 +117,14 @@
 				69AACC612770983D007FD39C /* Problem_236.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		69AACC652770C19D007FD39C /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				69AACC662770C1B6007FD39C /* Problem_329.swift */,
+			);
+			path = Matrix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
+				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
 				69AACC5E27709822007FD39C /* Stack.swift in Sources */,
+				69AACC672770C1B6007FD39C /* Problem_329.swift in Sources */,
 				69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */,
 				69AACC5F27709822007FD39C /* TreeNode.swift in Sources */,
 				69AACC622770983D007FD39C /* Problem_236.swift in Sources */,
