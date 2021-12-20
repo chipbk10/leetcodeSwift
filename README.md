@@ -2,6 +2,8 @@
 
 ### [Tree]()
 
+### [Matrix]()
+
 ### [Data Structure]()
 - TreeNode
 - Stack
