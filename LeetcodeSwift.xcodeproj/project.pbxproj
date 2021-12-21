@@ -18,6 +18,8 @@
 		69AACC692770C5B6007FD39C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC682770C5B6007FD39C /* Queue.swift */; };
 		69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6A2770D9EE007FD39C /* Problem_543.swift */; };
 		69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6D2770EE0B007FD39C /* Problem_17.swift */; };
+		69AACC702771CD32007FD39C /* Problem_22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6F2771CD32007FD39C /* Problem_22.swift */; };
+		69AACC722771D5C5007FD39C /* Problem_39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC712771D5C5007FD39C /* Problem_39.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		69AACC682770C5B6007FD39C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		69AACC6A2770D9EE007FD39C /* Problem_543.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_543.swift; sourceTree = "<group>"; };
 		69AACC6D2770EE0B007FD39C /* Problem_17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_17.swift; sourceTree = "<group>"; };
+		69AACC6F2771CD32007FD39C /* Problem_22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_22.swift; sourceTree = "<group>"; };
+		69AACC712771D5C5007FD39C /* Problem_39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_39.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				69AACC6D2770EE0B007FD39C /* Problem_17.swift */,
+				69AACC6F2771CD32007FD39C /* Problem_22.swift */,
+				69AACC712771D5C5007FD39C /* Problem_39.swift */,
 			);
 			path = Backtrack;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */,
+				69AACC702771CD32007FD39C /* Problem_22.swift in Sources */,
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
 				69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */,
 				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
@@ -249,6 +256,7 @@
 				69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */,
 				69AACC5F27709822007FD39C /* TreeNode.swift in Sources */,
 				69AACC622770983D007FD39C /* Problem_236.swift in Sources */,
+				69AACC722771D5C5007FD39C /* Problem_39.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
