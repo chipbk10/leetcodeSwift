@@ -20,6 +20,7 @@
 		69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6D2770EE0B007FD39C /* Problem_17.swift */; };
 		69AACC702771CD32007FD39C /* Problem_22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC6F2771CD32007FD39C /* Problem_22.swift */; };
 		69AACC722771D5C5007FD39C /* Problem_39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC712771D5C5007FD39C /* Problem_39.swift */; };
+		69AACC742771DCBD007FD39C /* Problem_46.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC732771DCBD007FD39C /* Problem_46.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		69AACC6D2770EE0B007FD39C /* Problem_17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_17.swift; sourceTree = "<group>"; };
 		69AACC6F2771CD32007FD39C /* Problem_22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_22.swift; sourceTree = "<group>"; };
 		69AACC712771D5C5007FD39C /* Problem_39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_39.swift; sourceTree = "<group>"; };
+		69AACC732771DCBD007FD39C /* Problem_46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_46.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				69AACC6D2770EE0B007FD39C /* Problem_17.swift */,
 				69AACC6F2771CD32007FD39C /* Problem_22.swift */,
 				69AACC712771D5C5007FD39C /* Problem_39.swift */,
+				69AACC732771DCBD007FD39C /* Problem_46.swift */,
 			);
 			path = Backtrack;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
 				69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */,
 				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
+				69AACC742771DCBD007FD39C /* Problem_46.swift in Sources */,
 				69AACC5E27709822007FD39C /* Stack.swift in Sources */,
 				69AACC672770C1B6007FD39C /* Problem_329.swift in Sources */,
 				69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */,
