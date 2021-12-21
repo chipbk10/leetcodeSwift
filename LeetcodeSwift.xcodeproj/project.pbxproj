@@ -22,6 +22,7 @@
 		69AACC722771D5C5007FD39C /* Problem_39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC712771D5C5007FD39C /* Problem_39.swift */; };
 		69AACC742771DCBD007FD39C /* Problem_46.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC732771DCBD007FD39C /* Problem_46.swift */; };
 		69AACC762771E1DB007FD39C /* Problem_78.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC752771E1DB007FD39C /* Problem_78.swift */; };
+		69AACC782771F165007FD39C /* Problem_79.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC772771F165007FD39C /* Problem_79.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		69AACC712771D5C5007FD39C /* Problem_39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_39.swift; sourceTree = "<group>"; };
 		69AACC732771DCBD007FD39C /* Problem_46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_46.swift; sourceTree = "<group>"; };
 		69AACC752771E1DB007FD39C /* Problem_78.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_78.swift; sourceTree = "<group>"; };
+		69AACC772771F165007FD39C /* Problem_79.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_79.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				69AACC662770C1B6007FD39C /* Problem_329.swift */,
+				69AACC772771F165007FD39C /* Problem_79.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */,
 				69AACC702771CD32007FD39C /* Problem_22.swift in Sources */,
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
+				69AACC782771F165007FD39C /* Problem_79.swift in Sources */,
 				69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */,
 				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
 				69AACC762771E1DB007FD39C /* Problem_78.swift in Sources */,
