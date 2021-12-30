@@ -38,7 +38,7 @@ class Problem_79: ProblemProtocol {
     // Time Complexity: O(3^L)
     // For the backtracking function, initially we could have at most 4 directions to explore, but further the choices are reduced into 3 (since we won't go back to where we come from).
     // As a result, the execution trace after the first step could be visualized as a 3-ary tree, each of the branches represent a potential exploration in the corresponding direction.
-    // Therefore, in the worst case, the total number of invocation would be the number of nodes in a full 3-nary tree, which is about 3^L3    
+    // Therefore, in the worst case, the total number of invocation would be the number of nodes in a full 3-nary tree, which is about 3^L3
     // Space Complexity: O(L)
     private func dfs(_ board: inout [[Character]], _ word: [Character], _ curRow: Int, _ curCol: Int, _ curIndex: Int) -> Bool {
                                 

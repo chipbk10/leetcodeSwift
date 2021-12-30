@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6922789B277DCD0C00C7F45B /* Problem_973.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922789A277DCD0C00C7F45B /* Problem_973.swift */; };
 		69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC2B27709535007FD39C /* AppDelegate.swift */; };
 		69AACC3527709537007FD39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AACC3427709537007FD39C /* Assets.xcassets */; };
 		69AACC4327709537007FD39C /* LeetcodeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC4227709537007FD39C /* LeetcodeSwiftTests.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6922789A277DCD0C00C7F45B /* Problem_973.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_973.swift; sourceTree = "<group>"; };
 		69AACC2827709535007FD39C /* LeetcodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AACC2B27709535007FD39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AACC3427709537007FD39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69227899277DCCEC00C7F45B /* Kth */ = {
+			isa = PBXGroup;
+			children = (
+				6922789A277DCD0C00C7F45B /* Problem_973.swift */,
+			);
+			path = Kth;
+			sourceTree = "<group>";
+		};
 		69AACC1F27709535007FD39C = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 			children = (
 				69AACC5B277097F9007FD39C /* Data */,
 				69AACC6C2770EDEC007FD39C /* Backtrack */,
+				69227899277DCCEC00C7F45B /* Kth */,
 				69AACC652770C19D007FD39C /* Matrix */,
 				69AACC602770983D007FD39C /* Tree */,
 				69AACC2B27709535007FD39C /* AppDelegate.swift */,
@@ -268,6 +279,7 @@
 				69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */,
 				69AACC5F27709822007FD39C /* TreeNode.swift in Sources */,
 				69AACC622770983D007FD39C /* Problem_236.swift in Sources */,
+				6922789B277DCD0C00C7F45B /* Problem_973.swift in Sources */,
 				69AACC722771D5C5007FD39C /* Problem_39.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
