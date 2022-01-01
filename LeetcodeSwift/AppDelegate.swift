@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func solution() {
-        Problem_10.run()
+        Problem_53.run()
     }
 }
 
