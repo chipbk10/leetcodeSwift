@@ -24,11 +24,13 @@ final class Problem_10: ProblemProtocol {
         return dfs_approach(s, p)
     }
     
+    /*
+     // Todo
     private func dp_approach(_ s: String, _ p: String) -> Bool {
         var dp = [[Bool]](repeating: [Bool](repeating: false, count: p.count+1), count: s.count+1)
-        // todo ...
         return dp[0][0]
     }
+    */
     
     private func dfs_approach(_ s: String, _ p: String) -> Bool {
         var memo = [[Bool?]](repeating: [Bool?](repeating: nil, count: p.count+1), count: s.count+1)

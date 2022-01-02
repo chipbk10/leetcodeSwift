@@ -12,6 +12,7 @@
 		692278A0277EF1BD00C7F45B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922789F277EF1BD00C7F45B /* String+Extension.swift */; };
 		692278A3277F133D00C7F45B /* Problem_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692278A2277F133D00C7F45B /* Problem_10.swift */; };
 		692278A62780653C00C7F45B /* Problem_53.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692278A52780653C00C7F45B /* Problem_53.swift */; };
+		692278A92780BABA00C7F45B /* Problem_139.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692278A82780BABA00C7F45B /* Problem_139.swift */; };
 		69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC2B27709535007FD39C /* AppDelegate.swift */; };
 		69AACC3527709537007FD39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AACC3427709537007FD39C /* Assets.xcassets */; };
 		69AACC4327709537007FD39C /* LeetcodeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC4227709537007FD39C /* LeetcodeSwiftTests.swift */; };
@@ -46,6 +47,7 @@
 		6922789F277EF1BD00C7F45B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		692278A2277F133D00C7F45B /* Problem_10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_10.swift; sourceTree = "<group>"; };
 		692278A52780653C00C7F45B /* Problem_53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_53.swift; sourceTree = "<group>"; };
+		692278A82780BABA00C7F45B /* Problem_139.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_139.swift; sourceTree = "<group>"; };
 		69AACC2827709535007FD39C /* LeetcodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AACC2B27709535007FD39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AACC3427709537007FD39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +119,14 @@
 			path = "Devide&Conquer";
 			sourceTree = "<group>";
 		};
+		692278A72780BA8400C7F45B /* DFS & Memo & DP */ = {
+			isa = PBXGroup;
+			children = (
+				692278A82780BABA00C7F45B /* Problem_139.swift */,
+			);
+			path = "DFS & Memo & DP";
+			sourceTree = "<group>";
+		};
 		69AACC1F27709535007FD39C = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 			children = (
 				69AACC5B277097F9007FD39C /* Data */,
 				69AACC6C2770EDEC007FD39C /* Backtrack */,
+				692278A72780BA8400C7F45B /* DFS & Memo & DP */,
 				692278A42780651900C7F45B /* Devide&Conquer */,
 				69227899277DCCEC00C7F45B /* Kth */,
 				69AACC652770C19D007FD39C /* Matrix */,
@@ -307,6 +318,7 @@
 				692278A3277F133D00C7F45B /* Problem_10.swift in Sources */,
 				692278A62780653C00C7F45B /* Problem_53.swift in Sources */,
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
+				692278A92780BABA00C7F45B /* Problem_139.swift in Sources */,
 				69AACC782771F165007FD39C /* Problem_79.swift in Sources */,
 				69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */,
 				69AACC692770C5B6007FD39C /* Queue.swift in Sources */,
