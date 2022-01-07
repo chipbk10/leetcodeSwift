@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
     }
     
-    func solution() {
-        Problem_146.run()
+    func solution() {                        
+         Problem_380.run()
     }
 }
 
