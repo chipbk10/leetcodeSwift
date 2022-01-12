@@ -15,7 +15,7 @@ final class Problem_167: ProblemProtocol {
         print(answer)
     }
     
-    func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {        
+    func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
         var lo = 0, hi = numbers.count-1, sum = 0
         while lo < hi {
             sum = numbers[lo] + numbers[hi]

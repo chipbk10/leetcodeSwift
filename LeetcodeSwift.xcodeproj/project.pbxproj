@@ -32,6 +32,8 @@
 		698EB622278EF359007271F6 /* Problem_167.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB621278EF359007271F6 /* Problem_167.swift */; };
 		698EB624278EF892007271F6 /* Problem_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB623278EF892007271F6 /* Problem_16.swift */; };
 		698EB626278EF8C6007271F6 /* Problem_259.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB625278EF8C6007271F6 /* Problem_259.swift */; };
+		698EB663278F194D007271F6 /* Problem_26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB662278F194D007271F6 /* Problem_26.swift */; };
+		698EB665278F2060007271F6 /* Problem_80.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB664278F2060007271F6 /* Problem_80.swift */; };
 		69AACC2C27709535007FD39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC2B27709535007FD39C /* AppDelegate.swift */; };
 		69AACC3527709537007FD39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AACC3427709537007FD39C /* Assets.xcassets */; };
 		69AACC4327709537007FD39C /* LeetcodeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AACC4227709537007FD39C /* LeetcodeSwiftTests.swift */; };
@@ -86,6 +88,9 @@
 		698EB621278EF359007271F6 /* Problem_167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_167.swift; sourceTree = "<group>"; };
 		698EB623278EF892007271F6 /* Problem_16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_16.swift; sourceTree = "<group>"; };
 		698EB625278EF8C6007271F6 /* Problem_259.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_259.swift; sourceTree = "<group>"; };
+		698EB65F278F1773007271F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		698EB662278F194D007271F6 /* Problem_26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_26.swift; sourceTree = "<group>"; };
+		698EB664278F2060007271F6 /* Problem_80.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_80.swift; sourceTree = "<group>"; };
 		69AACC2827709535007FD39C /* LeetcodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AACC2B27709535007FD39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AACC3427709537007FD39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +133,7 @@
 		69120C67278982FD005A7420 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				698EB661278F184C007271F6 /* Array */,
 				698EB61C278EE7B5007271F6 /* Sum */,
 				69120C682789831B005A7420 /* Number */,
 				692278A1277F132900C7F45B /* String */,
@@ -215,6 +221,15 @@
 			path = Sum;
 			sourceTree = "<group>";
 		};
+		698EB661278F184C007271F6 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				698EB662278F194D007271F6 /* Problem_26.swift */,
+				698EB664278F2060007271F6 /* Problem_80.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		69AACC1F27709535007FD39C = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +251,7 @@
 		69AACC2A27709535007FD39C /* LeetcodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				698EB65F278F1773007271F6 /* README.md */,
 				69AACC5B277097F9007FD39C /* Data */,
 				69AACC6C2770EDEC007FD39C /* Backtrack */,
 				692278A72780BA8400C7F45B /* DFS & Memo & DP */,
@@ -403,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69AACC6B2770D9EE007FD39C /* Problem_543.swift in Sources */,
+				698EB665278F2060007271F6 /* Problem_80.swift in Sources */,
 				69AACC702771CD32007FD39C /* Problem_22.swift in Sources */,
 				69120C6E278D12B8005A7420 /* Problem_202.swift in Sources */,
 				69120C70278D177A005A7420 /* Problem_412.swift in Sources */,
@@ -413,6 +430,7 @@
 				69AACC6427709B2F007FD39C /* ProblemProtocol.swift in Sources */,
 				69120C642788938F005A7420 /* Problem_381.swift in Sources */,
 				692278A92780BABA00C7F45B /* Problem_139.swift in Sources */,
+				698EB663278F194D007271F6 /* Problem_26.swift in Sources */,
 				692278AB2781B6C300C7F45B /* Node.swift in Sources */,
 				69AACC782771F165007FD39C /* Problem_79.swift in Sources */,
 				69AACC6E2770EE0B007FD39C /* Problem_17.swift in Sources */,
