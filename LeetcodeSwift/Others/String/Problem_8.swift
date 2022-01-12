@@ -12,7 +12,7 @@ final class Problem_8: ProblemProtocol {
         let s = "   -0042   a65 "
         let answer = problem.myAtoi(s)
         print(answer)
-    }    
+    }
     
     func myAtoi(_ s: String) -> Int {
         return readLeadingWhiteSpace(Array(s), 0)
