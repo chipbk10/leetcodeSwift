@@ -19,6 +19,7 @@
 - [Sum]()
 - [Kth]()
 - [Palindrome]()
+- [Permutation]()
 
 ### [Data]()
 - [TreeNode]()
