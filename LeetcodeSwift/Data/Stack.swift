@@ -20,4 +20,8 @@ struct Stack<T> {
     var isEmpty: Bool {
         array.count == 0
     }
+    
+    var peek: T? {
+        array.last
+    }
 }
