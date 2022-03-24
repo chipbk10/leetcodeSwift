@@ -27,6 +27,8 @@ final class Problem_1823: ProblemProtocol {
             }
         }
         
+        var tree = [Int:](repeating:[], count: 3)
+        
         return arr[curIndex]
     }
 }
