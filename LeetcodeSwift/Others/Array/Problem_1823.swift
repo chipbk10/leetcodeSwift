@@ -25,9 +25,7 @@ final class Problem_1823: ProblemProtocol {
                 if i < k-1 { arr.append(arr[curIndex]) }
                 curIndex += 1
             }
-        }
-        
-        var tree = [Int:](repeating:[], count: 3)
+        }                
         
         return arr[curIndex]
     }
