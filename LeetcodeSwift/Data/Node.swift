@@ -13,6 +13,42 @@ class Node<T> {
     }
 }
 
+class LinkedList<T> {
+    
+    var first: Node<T>? = nil
+    var last: Node<T>? = nil
+    
+    func addLast(_ value: T) {
+        let node = Node(value)
+        if let last = last {
+            last.next = node
+        } else {
+            last = node
+            first = node
+        }
+        self.last = self.last?.next
+    }
+    
+    func removeFirst() -> T {
+        guard let first = first else { fatalError("Cannot remove first element") }
+        self.first = first.next
+        if first === last {
+            last = nil
+        }
+        self.first = first.next
+        first.next = nil
+        return first.value
+    }
+    
+    func offer(_ value: T) {
+        addLast(value)
+    }
+    
+    func poll() -> T {
+        removeFirst()
+    }
+}
+
 class DoubleLinkedNode<T> {
     var value: T
     var prev: DoubleLinkedNode?

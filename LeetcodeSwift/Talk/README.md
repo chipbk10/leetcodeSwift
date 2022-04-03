@@ -2,7 +2,8 @@
 ### Array
 - maintain an array to record (or keep track of) the `occurrence` or the `frequency` of the character
 - maintain an array sorted in non-decreasing (ascending) order of something
-
+- iterate over the array
+- scan the array from the right side
 
 ### Time Complexity
 - `O(n * logn)`: a big O of n times log of n operations (or time complexity algorithm)
