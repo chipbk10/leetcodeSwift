@@ -25,7 +25,7 @@ final class Problem_1823: ProblemProtocol {
                 if i < k-1 { arr.append(arr[curIndex]) }
                 curIndex += 1
             }
-        }                
+        }
         
         return arr[curIndex]
     }

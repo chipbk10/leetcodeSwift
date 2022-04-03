@@ -5,7 +5,13 @@
 //  Created by Hieu Luong on 31/12/2021.
 //
 
-extension String {    
+extension String {
+    
+    // let cs = Array(s)
+    // let minIndex = 2
+    // let maxIndex = 7
+    // return String(cs[minIndex...maxIndex])
+    
     func substring(_ from: Int, _ to: Int) -> String {
         let fromIndex = index(startIndex, offsetBy: from)
         let toIndex = index(startIndex, offsetBy: to)
