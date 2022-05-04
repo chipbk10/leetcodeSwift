@@ -19,3 +19,6 @@ extension String {
         return String(self[range])
     }
 }
+
+// "a:xyz:c".split(separator: ":") ===> ["a", "xyz", "c"]
+// let num = Int(str) ?? 0
