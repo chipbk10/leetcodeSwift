@@ -28,4 +28,9 @@ extension String {
 // let value = a.asciiValue! // 65
 // let c = Character(UnicodeScalar(65)) // "a"
 
+// Iterate over a string with index
+// for (i, c) in s.enumerated() { 
+//    ... 
+// }
+
 
