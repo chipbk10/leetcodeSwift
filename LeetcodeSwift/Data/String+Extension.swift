@@ -26,7 +26,6 @@ extension String {
 // Character <-> AsciiValue
 // let a: Character = "a"
 // let value = a.asciiValue! // 65
-
 // let c = Character(UnicodeScalar(65)) // "a"
 
 
